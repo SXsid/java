@@ -5,8 +5,7 @@ public class ArrayList<T> {
     private T[] data;
     private  int size;
 
-    public  ArrayList(int intcapctiy){
-        this.capacity=intcapctiy;
+    public  ArrayList(int intcapctiy){this.capacity=intcapctiy;
         this.size=0;
         this.data= (T[])new Object[capacity];
 
